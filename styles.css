@@ -1,0 +1,47 @@
+body {background-color: lightgray;
+    margin:0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  div{
+    box-sizing: border-box;
+  }
+  header{
+    background-color: white;
+    padding:10px;
+  
+  }
+header h1 {
+    margin:0;
+  }
+div.post{
+    background-color:white;
+    margin-top: 10px;
+  }
+
+div.post img{
+  border-radius:15px;
+  width:100%;
+}  
+div.post .post-header div:first-child{
+  display:inline-block;
+  width:80%;
+ 
+}
+div.post .post-header div:last-child{
+  display:inline-block;
+  width:20%; 
+  text-align: right;
+  padding:10px;
+  color:gray;
+}
+div.post h2, div.post p{padding:5px;
+  margin:0;
+}
+
+div.container{
+width:600px;
+margin:auto;
+
+}
